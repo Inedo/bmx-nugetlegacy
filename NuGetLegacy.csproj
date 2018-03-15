@@ -116,6 +116,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="nuget.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="proget.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

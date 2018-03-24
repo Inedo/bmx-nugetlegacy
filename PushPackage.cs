@@ -38,7 +38,7 @@ namespace Inedo.BuildMasterExtensions.NuGet
             if (!string.IsNullOrEmpty(this.ApiKey))
                 argList.Add("\"" + this.ApiKey + "\"");
             if (!string.IsNullOrEmpty(this.ServerUrl))
-                argList.Add("-s \"" + this.ServerUrl + "\"");
+                argList.Add("-source \"" + this.ServerUrl + "\"");
 
             this.NuGet("push", argList.ToArray());
         }
